@@ -22,7 +22,7 @@ export const AppProvider = ({ children }) => {
     console.log(isDarkOpen);
   }, [isDarkOpen]);
 
-  const [searchValue, setSearchvalue] = useState("dog");
+  const [searchValue, setSearchvalue] = useState("cat");
 
   return (
     <AppContext.Provider
